@@ -1,0 +1,30 @@
+{
+  "name": "type-one",
+  "version": "0.0.1",
+  "description": "Data Type Management Library for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "mocha": "8.1.3"
+  },
+  "keywords": [
+    "data types",
+    "types",
+    "type management"
+  ],
+  "author": "Octav Zlatior",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozlatior/type-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozlatior/type-one/issues"
+  },
+  "homepage": "https://github.com/ozlatior/type-one#readme"
+}
