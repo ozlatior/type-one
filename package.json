@@ -4,7 +4,7 @@
   "description": "Data Type Management Library for NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "dependencies": {
     "uuid": "^3.3.3"
