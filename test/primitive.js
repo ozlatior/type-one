@@ -1,6 +1,6 @@
 const assert = require("assert");
 
-const Primitive = require("../src/primitive.js");
+const Primitive = require("../index.js").Primitive;
 
 const B = Primitive.BOOLEAN;
 const N = Primitive.NUMBER;

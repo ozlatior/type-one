@@ -1,8 +1,9 @@
 const assert = require("assert");
 
-const BooleanType = require("../../src/types/boolean_type.js");
+const T1 = require("../../index.js");
 
-const BOOLEAN = BooleanType.BOOLEAN;
+const BooleanType = T1.BooleanType;
+const BOOLEAN = T1.BOOLEAN;
 
 describe("BooleanType tests", () => {
 

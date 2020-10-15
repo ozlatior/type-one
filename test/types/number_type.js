@@ -1,19 +1,21 @@
 const assert = require("assert");
 
-const NumberType = require("../../src/types/number_type.js");
+const T1 = require("../../index.js");
 
-const FloatType = NumberType.FloatType;
-const IntegerType = NumberType.IntegerType;
+const NumberType = T1.NumberType;
 
-const FLOAT = NumberType.FLOAT;
-const DOUBLE = NumberType.DOUBLE;
-const REAL = NumberType.REAL;
-const DECIMAL = NumberType.DECIMAL;
+const FloatType = T1.FloatType;
+const IntegerType = T1.IntegerType;
 
-const INTEGER = NumberType.INTEGER;
-const BIGINT = NumberType.BIGINT;
-const SMALLINT = NumberType.SMALLINT;
-const TINYINT = NumberType.TINYINT;
+const FLOAT = T1.FLOAT;
+const DOUBLE = T1.DOUBLE;
+const REAL = T1.REAL;
+const DECIMAL = T1.DECIMAL;
+
+const INTEGER = T1.INTEGER;
+const BIGINT = T1.BIGINT;
+const SMALLINT = T1.SMALLINT;
+const TINYINT = T1.TINYINT;
 
 describe("NumberType tests", () => {
 

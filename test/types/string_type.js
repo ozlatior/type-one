@@ -1,18 +1,20 @@
 const assert = require("assert");
 
-const StringType = require("../../src/types/string_type.js");
+const T1 = require("../../index.js");
 
-const STRING = StringType.STRING;
-const BINARY = StringType.BINARY;
-const TEXT = StringType.TEXT;
-const TINYTEXT = StringType.TINYTEXT;
-const CITEXT = StringType.CITEXT;
-const BLOB = StringType.BLOB;
-const TINYBLOB = StringType.TINYBLOB;
-const UUID = StringType.UUID;
-const CIDR = StringType.CIDR;
-const INET = StringType.INET;
-const MACADDR = StringType.MACADDR;
+const StringType = T1.StringType;
+
+const STRING = T1.STRING;
+const BINARY = T1.BINARY;
+const TEXT = T1.TEXT;
+const TINYTEXT = T1.TINYTEXT;
+const CITEXT = T1.CITEXT;
+const BLOB = T1.BLOB;
+const TINYBLOB = T1.TINYBLOB;
+const UUID = T1.UUID;
+const CIDR = T1.CIDR;
+const INET = T1.INET;
+const MACADDR = T1.MACADDR;
 
 describe("StringType tests", () => {
 

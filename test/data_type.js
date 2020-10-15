@@ -1,6 +1,6 @@
 const assert = require("assert");
 
-const DataType = require("../src/data_type.js");
+const DataType = require("../index.js").DataType;
 
 describe("DataType tests", () => {
 

@@ -1,10 +1,12 @@
 const assert = require("assert");
 
-const DateType = require("../../src/types/date_type.js");
+const T1 = require("../../index.js");
 
-const DATETIME = DateType.DATETIME;
-const DATEONLY = DateType.DATEONLY;
-const TIMEONLY = DateType.TIMEONLY;
+const DateType = T1.DateType;
+
+const DATETIME = T1.DATETIME;
+const DATEONLY = T1.DATEONLY;
+const TIMEONLY = T1.TIMEONLY;
 
 describe("DateType tests", () => {
 

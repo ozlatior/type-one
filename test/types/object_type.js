@@ -1,8 +1,10 @@
 const assert = require("assert");
 
-const ObjectType = require("../../src/types/object_type.js");
+const T1 = require("../../index.js");
 
-const OBJECT = ObjectType.OBJECT;
+const ObjectType = T1.ObjectType;
+
+const OBJECT = T1.OBJECT;
 
 describe("ObjectType tests", () => {
 

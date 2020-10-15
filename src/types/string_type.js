@@ -238,11 +238,13 @@ StringType.StringTypeError = StringTypeError;
 
 StringType.STRING = STRING;
 StringType.BINARY = BINARY;
+
 StringType.TEXT = TEXT;
 StringType.TINYTEXT = TINYTEXT;
 StringType.CITEXT = CITEXT;
 StringType.BLOB = BLOB;
 StringType.TINYBLOB = TINYBLOB;
+
 StringType.UUID = UUID;
 StringType.CIDR = CIDR;
 StringType.INET = INET;
