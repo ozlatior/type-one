@@ -1,6 +1,6 @@
 {
   "name": "type-one",
-  "version": "0.0.1",
+  "version": "0.0.1-b",
   "description": "Data Type Management Library for NodeJS",
   "main": "index.js",
   "scripts": {
